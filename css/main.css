@@ -1,0 +1,178 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: gray;
+    margin: 0;
+    list-style-type: none;
+    width:100%;
+    padding: 20px;
+    box-shadow: inset 0 12px 12px -12px palegoldenrod;
+
+}
+
+nav{
+    display: block;
+    color: black
+}
+
+nav a{
+    color: palegoldenrod
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:white
+}
+
+.hero-image{
+    background-image: url("../images/landscape.jpg");
+    height: 25%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.hero-text{
+    color: darksalmon;
+    text-align:center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform:translate(-50%, -50%)
+
+}
+
+#main{
+    width:75%;
+    float:left;
+    height:100%;
+    padding-left:20px;
+    padding-top:20px;
+    
+}
+
+#side{
+    width:20%;
+    float:right;
+    height:100%;
+    padding:20px;
+
+}
+
+#profile-image{
+    width:75%;
+    border-radius:50%;
+    border: 5px solid salmon
+    
+}
+
+#profile{
+    text-align: center;
+}
+
+#tent-image{
+    width: 100%;
+    border-radius: 75%;
+    border: double;
+
+}
+
+#bruce-image{
+    border-radius: 75%;
+    border: double;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left:0px;
+
+}
+
+#profile h2{
+    display:inline;
+}
+
+#profile-details {
+    margin: right 50px;px;
+    text-align: center;
+}
+
+.side-articles, .main-articles{
+    padding:10px;
+    margin:10px;
+    border-radius:10px;
+}
+
+.side-articles{
+    background-color: grey;
+    text-align: center;
+    border: double
+}
+
+.main-articles{
+    background-color: lightsalmon;
+    border: double
+}
+
+form{
+    margin-top:20px;
+
+}
+
+textarea, input{
+    background-color: palegoldenrod;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+
+}
+
+footer{
+    bottom: 0px;
+    width:100%;
+    background-color: gray;
+    height: 5vh;
+    margin-top: 0px;
+
+}
+
+footer div{
+    text-align: center;
+    
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0 12px 12px -12px palegoldenrod;
+}
